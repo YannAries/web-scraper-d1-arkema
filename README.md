@@ -141,7 +141,7 @@ Don't abuse this tool. I'm not responsible for any damages caused.
    ```sh
    node index.js
    ```
-3.  Check the data saved as a CSV file 
+3. Check the data saved as a CSV file 
    ```sh
    ./d1ArkemaData.csv
    ```
