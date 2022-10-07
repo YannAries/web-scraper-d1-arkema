@@ -81,6 +81,8 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
+![Division 1 Arkema][screenshot]
+
 The purpose of this project is to familiarize myself with web scraping using JavaScript / NodeJS, Cheerio and Axios. While browsing through the [Fédération Française de Football](https://www.fff.fr) website, I couldn't find a way to download CSV data about the French Women's football league.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -154,7 +156,7 @@ Don't abuse this tool. I'm not responsible for any damages caused.
 ## Roadmap
 
 - [ ] Implement caching for the received content
-- [ ] Bypass CAPTCHA verification
+- [x] Bypass CAPTCHA verification
 
 See the [open issues](https://github.com/YannAries/web-scraper-d1-arkema/issues) for a full list of proposed features (and known issues).
 
@@ -213,6 +215,7 @@ Project Link: [https://github.com/YannAries/web-scraper-d1-arkema](https://githu
 [issues-url]: https://github.com/YannAries/web-scraper-d1-arkema/issues
 [license-shield]: https://img.shields.io/github/license/YannAries/web-scraper-d1-arkema.svg?style=for-the-badge
 [license-url]: https://github.com/YannAries/web-scraper-d1-arkema/blob/master/LICENSE.txt
+[screenshot]: images/screenshot.png
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/yannick-guionfirmin
 [Javascript.com]: https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E
