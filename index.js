@@ -21,7 +21,7 @@ puppeteer.use(require('puppeteer-extra-plugin-stealth')())
             const page = await browser.newPage();
             const testUrl = (url); // Navigate to the page that will perform the tests
             await page.goto(testUrl);
-            
+
             const res = await axios(url);
             console.log('Loading tables');
             console.log(res.status); // Set the response status
@@ -53,13 +53,13 @@ puppeteer.use(require('puppeteer-extra-plugin-stealth')())
                     'goalDiff': goalDiff
                 });
             });
-            const screenshotPath = '/tmp/headless-test-result.png'; // Save a screenshot of the results
+            const screenshotPath = 'images/screenshot-results.png'; // Save a screenshot of the results
             await page.screenshot({ path: screenshotPath });
             console.log('Have a look at the screenshot:', screenshotPath);
             console.log('Saving data to CSV file');
             const csv = new ObjectsToCsv(d1ArkemaTable);
-            await csv.toDisk('./d1ArkemaData.csv');
-            console.log('Data saved to CSV file');
+            await csv.toDisk('./d1ArkemaData.csv'); // Store scraped data to CSV file
+            console.log('Data saved to CSV file'); 
             await browser.close();
         } catch (err) {
             console.log('Something is wrong!');

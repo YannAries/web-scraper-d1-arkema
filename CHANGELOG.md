@@ -1,5 +1,10 @@
 # Changelog
 
+## v1.0.2 - 10 October 2022
+
+### Changed
+- Default save location to capture captcha images
+
 ## v1.0.1 - 6 October 2022
 
 ### Added
