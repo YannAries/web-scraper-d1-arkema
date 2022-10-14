@@ -89,7 +89,7 @@ The purpose of this project is to familiarize myself with web scraping using Jav
 
 ### Built With
 
-[![Javascript][Javascript.com]][Javascript-url]
+[![Javascript][Javascript.com]][Javascript-url] <!-- [![Typescript][Typescriptlang.org]][Typescript-url] -->
 [![Nodejs][Nodejs.org]][Nodejs-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -155,8 +155,10 @@ Don't abuse this tool. I'm not responsible for any damages caused.
 <!-- ROADMAP -->
 ## Roadmap
 
-- [ ] Implement caching for the received content
 - [x] Bypass CAPTCHA verification
+- [ ] Implement caching for the received content
+- [ ] Migrate from JavaScript to TypeScript
+
 
 See the [open issues](https://github.com/YannAries/web-scraper-d1-arkema/issues) for a full list of proposed features (and known issues).
 
@@ -222,5 +224,7 @@ Project Link: [https://github.com/YannAries/web-scraper-d1-arkema](https://githu
 [Javascript-url]: https://www.javascript.com/
 [Nodejs.org]: https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white
 [Nodejs-url]: https://nodejs.org/
+[Typescriptlang.org]: https://shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=TypeScript&logoColor=FFF
+[Typescript-url]: https://www.typescriptlang.org/
 [Npmjs.com]: https://img.shields.io/badge/npm-CB3837?style=for-the-badge&logo=npm&logoColor=white
 [Npm-url]: https://npmjs.com
