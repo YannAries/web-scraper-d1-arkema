@@ -31,7 +31,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/YannAries/web-scraper-d1-arkema">
-    <img src="images/640px-ARKEMA_logo.png" alt="Logo" width="100" height="90">
+    <img src="dist/assets/image/640px-ARKEMA_logo.png" alt="Logo" width="100" height="90">
   </a>
 
 <h3 align="center">French Women's Division 1 table<br>2022-2023</h3>
@@ -81,7 +81,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-![Division 1 Arkema][screenshot]
+![Division 1 Arkema][illustration]
 
 The purpose of this project is to familiarize myself with web scraping using JavaScript / NodeJS, Cheerio and Axios. While browsing through the [Fédération Française de Football](https://www.fff.fr) website, I couldn't find a way to download CSV data about the French Women's football league.
 
@@ -141,11 +141,15 @@ Don't abuse this tool. I'm not responsible for any damages caused.
    ```
 2. Run the script
    ```sh
-   node index.js
+   node src/index.js
    ```
 3. Check the data saved as a CSV file 
    ```sh
-   ./d1ArkemaData.csv
+   ./dist/assets/d1ArkemaData.csv
+   ```
+4. Check the screenshot saved as a PNG file 
+   ```sh
+   ./dist/assets/image/screenshot.png
    ```
 
 <!-- _For more examples, please refer to the [Documentation](https://github.com/YannAries/web-scraper-d1-arkema/blob/master/README.md)_ -->
@@ -156,7 +160,7 @@ Don't abuse this tool. I'm not responsible for any damages caused.
 ## Roadmap
 
 - [x] Bypass CAPTCHA verification
-- [ ] Implement caching for the received content
+- [x] Set the cache timeout for the target webpage
 - [ ] Migrate from JavaScript to TypeScript
 
 
@@ -217,7 +221,7 @@ Project Link: [https://github.com/YannAries/web-scraper-d1-arkema](https://githu
 [issues-url]: https://github.com/YannAries/web-scraper-d1-arkema/issues
 [license-shield]: https://img.shields.io/github/license/YannAries/web-scraper-d1-arkema.svg?style=for-the-badge
 [license-url]: https://github.com/YannAries/web-scraper-d1-arkema/blob/master/LICENSE.txt
-[screenshot]: images/screenshot.png
+[illustration]: dist/assets/image/illustration_project.png
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/yannick-guionfirmin
 [Javascript.com]: https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E

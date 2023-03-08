@@ -1,5 +1,16 @@
 # Changelog
 
+## v1.1.0 - 8 March 2023
+
+### Changed
+- Complete code refactoring
+- Set the cache timeout
+- Reorganize folder structure
+- README.md
+
+### Removed
+- Remove several extensions
+
 ## v1.0.2 - 10 October 2022
 
 ### Changed
