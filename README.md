@@ -31,7 +31,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/YannAries/web-scraper-d1-arkema">
-    <img src="dist/assets/image/640px-ARKEMA_logo.png" alt="Logo" width="100" height="90">
+    <img src="./dist/assets/image/640px-ARKEMA_logo.png" alt="Logo" width="100" height="90">
   </a>
 
 <h3 align="center">French Women's Division 1 table<br>2022-2023</h3>
@@ -49,8 +49,6 @@
     <a href="https://github.com/YannAries/web-scraper-d1-arkema/pulls">Request Feature</a>
   </p>
 </div>
-
-
 
 <!-- TABLE OF CONTENTS -->
 <details>
@@ -83,7 +81,7 @@
 
 ![Division 1 Arkema][illustration]
 
-The purpose of this project is to familiarize myself with web scraping using JavaScript / NodeJS, Cheerio and Axios. While browsing through the [Fédération Française de Football](https://www.fff.fr) website, I couldn't find a way to download CSV data about the French Women's football league.
+The purpose of this project is to familiarize myself with web scraping using JavaScript / NodeJS and Axios. While browsing through the [Fédération Française de Football](https://www.fff.fr) website, I couldn't find a way to download CSV data about the French Women's football league.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -221,7 +219,7 @@ Project Link: [https://github.com/YannAries/web-scraper-d1-arkema](https://githu
 [issues-url]: https://github.com/YannAries/web-scraper-d1-arkema/issues
 [license-shield]: https://img.shields.io/github/license/YannAries/web-scraper-d1-arkema.svg?style=for-the-badge
 [license-url]: https://github.com/YannAries/web-scraper-d1-arkema/blob/master/LICENSE.txt
-[illustration]: dist/assets/image/illustration_project.png
+[illustration]: ./dist/assets/image/illustration_project.png
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/yannick-guionfirmin
 [Javascript.com]: https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E
